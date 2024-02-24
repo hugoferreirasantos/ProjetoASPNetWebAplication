@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EMWeb/1.0.0": {
+        "dependencies": {
+          "EMDomain": "1.0.0",
+          "EMRepository": "1.0.0"
+        },
+        "runtime": {
+          "EMWeb.dll": {}
+        }
+      },
+      "EMDomain/1.0.0": {
+        "runtime": {
+          "EMDomain.dll": {}
+        }
+      },
+      "EMRepository/1.0.0": {
+        "dependencies": {
+          "EMDomain": "1.0.0"
+        },
+        "runtime": {
+          "EMRepository.dll": {}
+        }
+      },
+      "FirebirdSql.Data.FirebirdClient/9.0.0.0": {
+        "runtime": {
+          "FirebirdSql.Data.FirebirdClient.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EMWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EMDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EMRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FirebirdSql.Data.FirebirdClient/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

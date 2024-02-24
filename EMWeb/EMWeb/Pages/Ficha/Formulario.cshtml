@@ -1,0 +1,231 @@
+﻿@page
+@model EMWeb.Pages.Editar.FormularioModel
+@{
+}
+
+
+
+<div class="text-center">
+
+    <h1 class="display-4 ">@(Model.Aluno.MATRICULA == 0 ? ViewData["Title"] = "Cadastrar Aluno" : ViewData["Title"] = "Editar Aluno" )</h1>
+
+</div>
+
+<form asp-page-handler="OnPostAsync" method="post">
+    <input type="hidden" asp-for="Aluno.MATRICULA" />
+
+    <div class="form-group">
+        <label asp-for="Aluno.NOME">Nome</label>
+        <input asp-for="Aluno.NOME" type="text" class="form-control" minlength="3" maxlength="100" placeholder="Digite o nome" oninput="this.value = this.value.toUpperCase()" required>
+        <span asp-validation-for="Aluno.NOME" class="text-danger"></span>
+    </div>
+
+    
+   
+
+    @if(Model.Aluno.MATRICULA == 0)
+    {
+
+        <div class="form-group">
+            <label asp-for="Aluno.CPF">CPF</label>
+            <input id="cpf" asp-for="Aluno.CPF" type="text" maxlength="14" class="form-control" placeholder="Digite o CPF (Apenas números)">
+        </div>
+        
+        <div class="form-group">
+            <label asp-for="Aluno.NASCIMENTO" for="NASCIMENTO">Nascimento</label>
+            <input id="NASCIMENTO" name="NASCIMENTO" type="text" maxlength="10" class="form-control" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="DD/MM/AAAA" required>
+            <span class="text-danger"></span>
+        </div>
+    }
+    else
+    {
+        <div class="form-group">
+            <label asp-for="Aluno.CPF">CPF</label>
+            <input id="cpf" asp-for="Aluno.CPF" type="text" maxlength="14" class="form-control" placeholder="Digite o CPF (Apenas números)">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Aluno.NASCIMENTO_FORMATADO" for="NASCIMENTO">Nascimento</label>
+            <input asp-for="Aluno.NASCIMENTO_FORMATADO" id="NASCIMENTO" name="NASCIMENTO" type="text" maxlength="10" class="form-control" pattern="\d{1,2}/\d{1,2}/\d{4}" required>
+            <span class="text-danger"></span>
+        </div>
+    }
+
+    
+    
+
+    <br />
+
+    <select asp-for="Aluno.SEXO" class="form-select" style="width: 150px;" required>
+        <option value="">Sexo</option>
+        <option value="0">Masculino</option>
+        <option value="1">Feminino</option>
+    </select>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    
+
+    <div>
+        <button type="submit" class="btn btn-primary btn-block" style="background-color: #00BFFF; color: black">Salvar</button>
+        <a class="btn btn-secondary btn-block" asp-page="/Ficha/Alunos" role="button">Voltar</a>
+    </div>
+</form>
+
+
+
+
+
+<div id="customAlert" class="modal" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mensagem</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="alertMessage">@TempData["SuccessMessage"]</p>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-secondary btn-block" asp-page="/Ficha/Alunos" role="button">Voltar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="customAlertErroJavascrip" class="modal" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mensagem</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="alertMessageErro">@TempData["ValidationError"]</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    window.onload = function () {
+        var successMessage = document.getElementById('alertMessage').textContent;
+        if (successMessage) {
+            $('#customAlert').modal('show');
+        }
+
+        var errorMessage = document.getElementById('alertMessageErro').textContent;
+        if (errorMessage) {
+            $('#customAlertErroJavascrip').modal('show');
+        }
+
+        
+
+    }
+
+
+
+    
+   
+
+    var input = document.getElementById('NASCIMENTO');
+    input.addEventListener('input', function (e) {
+        this.type = 'text';
+        if (this.value.length == 2 || this.value.length == 5) {
+            this.value += '/';
+        }
+    });
+
+    input.addEventListener('blur', function (e) {
+        this.type = 'text';
+        var match = this.value.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+        if (match) {
+            var year = parseInt(match[3], 10);
+            var month = parseInt(match[2], 10) - 1; 
+            var day = parseInt(match[1], 10);
+            var date = new Date(year, month, day);
+            if (date.getFullYear() !== year || date.getMonth() != month || date.getDate() !== day) {
+                this.value = '';
+            }
+        } else {
+        }
+    });
+
+    input.addEventListener('keydown', function (e) {
+        
+        if (e.key === 'Delete') {
+            
+            this.value = '';
+        }
+    });
+
+    input.addEventListener('blur', function (e) {
+        this.type = 'text';
+        var match = this.value.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+        if (match) {
+            var year = parseInt(match[3], 10);
+            var month = parseInt(match[2], 10) - 1; // months are 0-11
+            var day = parseInt(match[1], 10);
+            var date = new Date(year, month, day);
+            if (date.getFullYear() !== year || date.getMonth() != month || date.getDate() !== day) {
+                alert("Data Inválida");
+                this.value = '';
+            }
+        } else {
+            alert("Formato inválido, digite a data no formato DD/MM/AAAA. ");
+            this.value = '';
+        }
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var NASCIMENTO = document.getElementById('NASCIMENTO');
+        NASCIMENTO.addEventListener('keydown', function (e) {
+            if (e.which == 8) {
+                var inputVal = this.value;
+                var newCursorPos = this.selectionStart;
+                if (inputVal[newCursorPos - 1] == "/") {
+                    this.value = inputVal.substring(0, newCursorPos - 1) + inputVal.substring(newCursorPos);
+                    this.selectionStart = newCursorPos - 1;
+                    this.selectionEnd = newCursorPos - 1;
+                    e.preventDefault();
+                }
+            }
+        });
+    });
+
+
+    document.getElementById('cpf').addEventListener('input', function (e) {
+        var value = this.value.replace(/\D/g, ""); 
+        value = value.replace(/(\d{3})(\d)/, "$1.$2"); 
+        value = value.replace(/(\d{3})(\d)/, "$1.$2"); 
+        value = value.replace(/(\d{3})(\d{1,2})$/, "$1-$2"); 
+        this.value = value; 
+    });
+
+    function formatarCPF(cpf) {
+        var value = cpf.replace(/\D/g, "");
+        value = value.replace(/(\d{3})(\d)/, "$1.$2");
+        value = value.replace(/(\d{3})(\d)/, "$1.$2");
+        value = value.replace(/(\d{3})(\d{1,2})$/, "$1-$2");
+        return value;
+    }
+
+    document.getElementById('cpf').value = formatarCPF(document.getElementById('cpf').value);
+
+</script>

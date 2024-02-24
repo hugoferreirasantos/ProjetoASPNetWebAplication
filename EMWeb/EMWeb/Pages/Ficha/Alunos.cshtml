@@ -1,0 +1,119 @@
+﻿@page
+@model EMWeb.Pages.AlunosModel
+@{
+}
+
+
+<div>
+    <div class="d-flex justify-content-between align-items-center mb-5" style="border-bottom: 2px solid #A9A9A9	;">
+        <h1>Tabela de Alunos</h1>
+        <a class="btn btn-outline-success btn mx-4 style-color-buttons" style="color: white;  padding: 10px 24px; font-size: 20px; line-height: 1.5;" asp-page="/Ficha/Formulario">Adicionar aluno</a>
+    </div>
+
+    <br />
+
+    <form asp-page-handler="OnPostAsync" method="post">
+        <div class="mb-3 align-items-center text-left">
+            <label style="color: black; font-weight: bold;" class="form-label">Opção de busca:</label>
+            <input class="form-check-input buttonsIndex" type="radio" name="opcaoBusca" value="matricula" checked /> Matrícula
+            <input class="form-check-input buttonsIndex" type="radio" name="opcaoBusca" value="nome" checked />Nome
+            <div class="input-group">
+                <input type="text" name="valorBusca" class="form-control" maxlength="30" placeholder="Matrícula ou nome do aluno..." style="margin-right: 10px; border-radius: 10px;">
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn style-color-buttons" style="color: white">Buscar</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+
+    <br />
+
+
+    <div style="text-align: right;">
+        @Html.ActionLink("Carregar", "Index", new { opcaoBusca = "null", valorBusca = "null" }, new { @class = "btn btn-outline-success style-color-buttons color-white", @id = "myButton" })
+    </div>
+
+    <br />
+    <table class="table table-striped  table-hover table-bordered border-with text-left container ">
+        <thead class="color-up-table align-content-center">
+            <tr>
+                <th scope="col">Matricula</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Data de nascimento</th>
+                <th scope="col">CPF</th>
+                <th scope="col">Opções</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider align-content-center">
+            @if (Model.Alunos != null)
+            {
+                @foreach (var aluno in Model.Alunos)
+                {
+                    <tr>
+                        <td>@aluno.MATRICULA</td>
+                        <td>@aluno.NOME</td>
+                        <td>@aluno.SEXO</td>
+                        <td>@aluno.NASCIMENTO_FORMATADO</td>
+                        <td>@aluno.CPF_FORMATADO</td>
+                        <td>
+                            <a asp-page="/Ficha/Formulario" asp-route-id="@aluno.MATRICULA" class="btn btn-outline-success btn border-white style-color-buttons" style="color: white"><i class="material-icons">edit</i>Editar</a>
+                            <a asp-page="/Ficha/Excluir" asp-route-id="@aluno.MATRICULA" data-aluno-id="@aluno.MATRICULA" class="btn btn-secondary border-white delete-button"><i class="material-icons">delete</i>Excluir</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+</div>
+    
+
+
+
+
+
+
+<div class="modal fade" id="confirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmDeleteModalLabel">Confirmação de Exclusão</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Tem certeza de que deseja excluir este aluno?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Não</button>
+                <a id="deleteButton" class="btn btn-primary">Sim</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="customAlertErroJavascrip" class="modal" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mensagem</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="alertMessageErro">@TempData["ValidationError"]</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

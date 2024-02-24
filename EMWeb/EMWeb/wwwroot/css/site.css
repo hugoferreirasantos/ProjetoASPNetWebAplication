@@ -1,0 +1,114 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+th, td {
+    text-justify: inter-word;
+}
+
+.img-formatada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+}
+
+/*Classe cor da parte de cima da tabela*/
+.color-up-table {
+    background-color: #3CB371;
+    color: white;
+    border-bottom: 2px solid black;
+    align-items: center;
+}
+
+/*Classe: estiliza o conteúdo dentro da tabela*/
+.style-items-table {
+    align-items: conter;
+}
+
+/*Classe: estilização da cor do botões e outros atributos*/
+.style-color-buttons {
+    background-color: #008080;
+}
+
+
+/*Classe: estilização dos icones*/
+.material-icons {
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+
+/*Estilização da tabela e campo de pesquisa:*/
+.container {
+    width: 100%;
+}
+
+    .container .mb-3,
+    .container .text-center {
+        width: 100%;
+    }
+
+    .container .mb-3 {
+        width: 60%;
+    }
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+
+    .table th,
+    .table td {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+.color-white {
+    color: white;
+}
+
+/*Butões de pesquisa:*/
+.buttonsIndex{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/*Formatação da imagem da index*/
+.formatIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.smaller-image {
+    width: 50px; 
+    height: auto; 
+    margin-right: 50px;
+}
+
+
+.nav-link:active {
+    text-decoration: underline;
+}
+
+
+
