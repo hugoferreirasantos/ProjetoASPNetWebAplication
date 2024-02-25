@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uwrAWqXXVKAK2h0HZzJDOz62VAeqa4wo5PPitx64lAs=",
+  "Hash": "RfJyPxBtEdhL5N164IDM788Zf50uYbADqYp6Fc2ntvU=",
   "Source": "EMWeb",
   "BasePath": "_content/EMWeb",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\wwwroot\\js\\TelaFormulario.js",
+      "SourceId": "EMWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\wwwroot\\",
+      "BasePath": "_content/EMWeb",
+      "RelativePath": "js/TelaFormulario.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\TelaFormulario.js"
     },
     {
       "Identity": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

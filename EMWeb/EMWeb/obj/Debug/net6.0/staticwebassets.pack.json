@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\img\\IMG_ESCOLAR_MANAGER.png"
     },
     {
+      "Id": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\wwwroot\\js\\TelaFormulario.js",
+      "PackagePath": "staticwebassets\\js\\TelaFormulario.js"
+    },
+    {
       "Id": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
