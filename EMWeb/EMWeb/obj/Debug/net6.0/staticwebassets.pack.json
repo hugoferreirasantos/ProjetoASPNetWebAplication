@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\js\\TelaFormulario.js"
     },
     {
+      "Id": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
       "Id": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

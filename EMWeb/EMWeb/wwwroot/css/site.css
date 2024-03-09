@@ -39,7 +39,7 @@ th, td {
 
 /*Classe: estiliza o conteúdo dentro da tabela*/
 .style-items-table {
-    align-items: conter;
+    align-items: center;
 }
 
 /*Classe: estilização da cor do botões e outros atributos*/
@@ -60,26 +60,25 @@ th, td {
     width: 100%;
 }
 
-    .container .mb-3,
-    .container .text-center {
-        width: 100%;
-    }
+.container .mb-3,
+.container .text-center {
+    width: 100%;
+}
 
-    .container .mb-3 {
-        width: 60%;
-    }
+.container .mb-3 {
+    width: 60%;
+}
 
 .table {
     width: 100%;
     text-align: center;
 }
 
-
-    .table th,
-    .table td {
-        vertical-align: middle;
-        text-align: center;
-    }
+.table th,
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
 
 .color-white {
     color: white;
@@ -109,6 +108,10 @@ th, td {
 .nav-link:active {
     text-decoration: underline;
 }
+
+
+
+
 
 
 

@@ -20,7 +20,14 @@ namespace EMWeb.Pages
 
         public void OnGet()
         {
-            Alunos = _alunoRepositorio.GetAll();
+            try
+            {
+                Alunos = _alunoRepositorio.GetAll();
+            }
+            catch (Exception ex)
+            {
+                TempData["ValidationError"] = $"Ocorre um erro: {ex}";
+            }
         }
     }
 }

@@ -18,7 +18,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" style="margin-left: 20px;">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark active" asp-area="" asp-page="/Ficha/Alunos">Tabela de Alunos</a>
@@ -28,6 +28,7 @@
                         </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
@@ -43,13 +44,13 @@
         </div>
     </footer>
 
-   
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/index.js"></script>
     <script src="~/js/site.js"></script>
     <script src="~/js/TelaFormulario.js"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

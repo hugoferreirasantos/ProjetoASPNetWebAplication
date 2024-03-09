@@ -1,9 +1,7 @@
 using EMDomain;
 using EMRepository;
-using Microsoft.JSInterop;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Diagnostics.Eventing.Reader;
 
 namespace EMWeb.Pages.Editar
 {
@@ -142,7 +140,7 @@ namespace EMWeb.Pages.Editar
                                 else
                                 {
                                     _repositorioAluno.Update(Aluno);
-                                    TempData["SuccessMessage"] = "Dados Alterados com sucesso!";
+                                    TempData["SuccessMessage"] = "Dados Alterados salvos com sucesso!";
                                 }
 
                             }
