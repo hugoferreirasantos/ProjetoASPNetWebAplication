@@ -93,7 +93,12 @@
             </div>
             <div class="modal-footer">
                 <a class="btn btn-secondary btn-block" asp-page="/Ficha/Alunos" role="button">Voltar</a>
-            </div>
+                @if(Model.Aluno.MATRICULA == 0)
+                {
+                    <a class="btn btn-secondary" asp-page="/Ficha/Formulario" role="button">Outro Cadastro</a>
+                }
+                
+                </div>
         </div>
     </div>
 </div>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EMWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad0b342b9d5df3b1ca06086f202700aa6b58ebd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaa49576a27e88afac42424334191a7ca594d1bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("EMWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EMWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
