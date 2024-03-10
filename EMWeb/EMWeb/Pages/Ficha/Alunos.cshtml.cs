@@ -44,10 +44,26 @@ namespace EMWeb.Pages
                     switch (opcaoBusca)
                     {
                         case "matricula":
-                            Alunos = _alunoRepositorio.GetAllGetByMatricula(valorBusca);
+                            if (!_alunoRepositorio.GetAllGetByMatricula(valorBusca).Any())
+                            {
+                                TempData["ValidationError"] = "Matrícula não encontrada.";
+                            }
+                            else
+                            {
+                                Alunos = _alunoRepositorio.GetAllGetByMatricula(valorBusca);
+                            }
+                            
                             break;
                         case "nome":
-                            Alunos = _alunoRepositorio.GetAllGetByNome(valorBusca.ToUpper());
+                            if (!_alunoRepositorio.GetAllGetByNome(valorBusca.ToUpper()).Any())
+                            {
+                                TempData["ValidationError"] = "Nome não encontrado.";
+                            }
+                            else
+                            {
+                                Alunos = _alunoRepositorio.GetAllGetByNome(valorBusca.ToUpper());
+                            }
+                            
                             break;
                         default:
                             Alunos = _alunoRepositorio.GetAll();
