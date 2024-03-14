@@ -1,5 +1,6 @@
 ﻿@page
 @model EMWeb.Pages.Editar.FormularioModel
+@using EMDomain
 @{
 }
 
@@ -52,15 +53,19 @@
     }
 
     
-    
 
     <br />
-
+    <label>Sexo *</label>
     <select asp-for="Aluno.SEXO" class="form-select" style="width: 150px;" required>
-        <option value="">Sexo</option>
-        <option value="0">Masculino</option>
-        <option value="1">Feminino</option>
+        <option value="">Selecione</option>
+        @foreach (var sexo in Html.GetEnumSelectList<EnumeradorSexo>())
+        {
+            <option value="@sexo.Value">@sexo.Text</option>
+        }
     </select>
+
+
+    
 
     <br />
     <br />
