@@ -34,5 +34,5 @@ D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMWeb\EMWeb\bin\Debug\net6.0\EMRe
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMWeb\EMWeb\bin\Debug\net6.0\FirebirdSql.Data.FirebirdClient.dll
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMWeb\EMWeb\bin\Debug\net6.0\EMDomain.pdb
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMWeb\EMWeb\bin\Debug\net6.0\EMRepository.pdb
-D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMWeb\EMWeb\obj\Debug\net6.0\EMWeb.csproj.CopyComplete
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMWeb\EMWeb\obj\Debug\net6.0\EMWeb.sourcelink.json
+D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMWeb\EMWeb\obj\Debug\net6.0\EMWeb.csproj.Up2Date
