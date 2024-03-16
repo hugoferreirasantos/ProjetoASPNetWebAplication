@@ -12,6 +12,6 @@ D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMRepository\bin\Debug\System.Run
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMRepository\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMRepository\obj\Debug\EMRepository.csproj.AssemblyReference.cache
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMRepository\obj\Debug\EMRepository.csproj.CoreCompileInputs.cache
-D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMRepository\obj\Debug\EMRepository.csproj.CopyComplete
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMRepository\obj\Debug\EMRepository.dll
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMRepository\obj\Debug\EMRepository.pdb
+D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMRepository\obj\Debug\EMReposi.ED7E67A8.Up2Date

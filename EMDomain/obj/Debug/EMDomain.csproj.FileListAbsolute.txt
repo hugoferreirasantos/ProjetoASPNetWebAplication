@@ -5,6 +5,6 @@ D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMDomain\bin\Debug\Microsoft.Anal
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMDomain\bin\Debug\Microsoft.Analytics.Types.dll
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMDomain\obj\Debug\EMDomain.csproj.AssemblyReference.cache
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMDomain\obj\Debug\EMDomain.csproj.CoreCompileInputs.cache
-D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMDomain\obj\Debug\EMDomain.csproj.CopyComplete
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMDomain\obj\Debug\EMDomain.dll
 D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMDomain\obj\Debug\EMDomain.pdb
+D:\Ambiente_Desenvolvimento\Aulas_C#\ProjetoEM\EMDomain\obj\Debug\EMDomain.csproj.Up2Date

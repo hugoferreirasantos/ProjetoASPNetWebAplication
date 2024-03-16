@@ -7,65 +7,36 @@
       "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\ficha\\formulario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8AD8B390-7869-4673-B3C5-86597689DE4D}|..\\EMRepository\\EMRepository.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emrepository\\repositorioaluno\\repositorioaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD8B390-7869-4673-B3C5-86597689DE4D}|..\\EMRepository\\EMRepository.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emrepository\\repositorioabstrato\\repositorioabstrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD8B390-7869-4673-B3C5-86597689DE4D}|..\\EMRepository\\EMRepository.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emrepository\\banco\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E41012E-3F10-4798-A440-9D68EF14F181}|..\\EMDomain\\EMDomain.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emdomain\\ientidade\\ientidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E41012E-3F10-4798-A440-9D68EF14F181}|..\\EMDomain\\EMDomain.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emdomain\\enumeradorsexo\\enumeradorsexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E41012E-3F10-4798-A440-9D68EF14F181}|..\\EMDomain\\EMDomain.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emdomain\\aluno\\validacaocpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E41012E-3F10-4798-A440-9D68EF14F181}|..\\EMDomain\\EMDomain.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emdomain\\aluno\\validacaocamposaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E41012E-3F10-4798-A440-9D68EF14F181}|..\\EMDomain\\EMDomain.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emdomain\\aluno\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\pages\\ficha\\formulario.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\ficha\\formulario.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\pages\\ficha\\alunos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\ficha\\alunos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\pages\\ficha\\alunos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\ficha\\alunos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|d:\\ambiente_desenvolvimento\\aulas_c#\\projetoem\\emweb\\emweb\\pages\\ficha\\excluir.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C86539-8ED0-4A55-8DBF-129468E944FC}|EMWeb\\EMWeb.csproj|solutionrelative:emweb\\pages\\ficha\\excluir.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\EnumeradorSexo\\EnumeradorSexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAluno\\RepositorioAluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAbstrato\\RepositorioAbstrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\Banco\\Banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\IEntidade\\IEntidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\Aluno\\ValidacaoCPF.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\Aluno\\ValidacaoCamposAluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,19 +46,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositorioAluno.cs",
+              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAluno\\RepositorioAluno.cs",
+              "RelativeDocumentMoniker": "..\\EMRepository\\RepositorioAluno\\RepositorioAluno.cs",
+              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAluno\\RepositorioAluno.cs",
+              "RelativeToolTip": "..\\EMRepository\\RepositorioAluno\\RepositorioAluno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T01:40:56.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Alunos.cshtml",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Alunos.cshtml",
-              "RelativeDocumentMoniker": "EMWeb\\Pages\\Ficha\\Alunos.cshtml",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Alunos.cshtml",
-              "RelativeToolTip": "EMWeb\\Pages\\Ficha\\Alunos.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T22:31:40.298Z"
+              "Title": "RepositorioAbstrato.cs",
+              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAbstrato\\RepositorioAbstrato.cs",
+              "RelativeDocumentMoniker": "..\\EMRepository\\RepositorioAbstrato\\RepositorioAbstrato.cs",
+              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAbstrato\\RepositorioAbstrato.cs",
+              "RelativeToolTip": "..\\EMRepository\\RepositorioAbstrato\\RepositorioAbstrato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T01:40:53.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\Banco\\Banco.cs",
+              "RelativeDocumentMoniker": "..\\EMRepository\\Banco\\Banco.cs",
+              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\Banco\\Banco.cs",
+              "RelativeToolTip": "..\\EMRepository\\Banco\\Banco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T01:40:50.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEntidade.cs",
+              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\IEntidade\\IEntidade.cs",
+              "RelativeDocumentMoniker": "..\\EMDomain\\IEntidade\\IEntidade.cs",
+              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\IEntidade\\IEntidade.cs",
+              "RelativeToolTip": "..\\EMDomain\\IEntidade\\IEntidade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T01:40:44.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnumeradorSexo.cs",
+              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\EnumeradorSexo\\EnumeradorSexo.cs",
+              "RelativeDocumentMoniker": "..\\EMDomain\\EnumeradorSexo\\EnumeradorSexo.cs",
+              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\EnumeradorSexo\\EnumeradorSexo.cs",
+              "RelativeToolTip": "..\\EMDomain\\EnumeradorSexo\\EnumeradorSexo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T01:40:41.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,206 +121,73 @@
               "RelativeDocumentMoniker": "EMWeb\\Pages\\Ficha\\Formulario.cshtml",
               "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Formulario.cshtml",
               "RelativeToolTip": "EMWeb\\Pages\\Ficha\\Formulario.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACkAAAAFAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAADsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T22:25:04.172Z",
+              "WhenOpened": "2024-03-16T01:32:17.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Formulario.cshtml.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Formulario.cshtml.cs",
-              "RelativeDocumentMoniker": "EMWeb\\Pages\\Ficha\\Formulario.cshtml.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Formulario.cshtml.cs",
-              "RelativeToolTip": "EMWeb\\Pages\\Ficha\\Formulario.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T22:25:01.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EnumeradorSexo.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\EnumeradorSexo\\EnumeradorSexo.cs",
-              "RelativeDocumentMoniker": "..\\EMDomain\\EnumeradorSexo\\EnumeradorSexo.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\EnumeradorSexo\\EnumeradorSexo.cs",
-              "RelativeToolTip": "..\\EMDomain\\EnumeradorSexo\\EnumeradorSexo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T00:07:18.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Program.cs",
-              "RelativeDocumentMoniker": "EMWeb\\Program.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Program.cs",
-              "RelativeToolTip": "EMWeb\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T22:12:16.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "EMWeb\\Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "EMWeb\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T22:12:11.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Alunos.cshtml.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Alunos.cshtml.cs",
-              "RelativeDocumentMoniker": "EMWeb\\Pages\\Ficha\\Alunos.cshtml.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Alunos.cshtml.cs",
-              "RelativeToolTip": "EMWeb\\Pages\\Ficha\\Alunos.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T22:11:07.811Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Error.cshtml.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Error.cshtml.cs",
-              "RelativeDocumentMoniker": "EMWeb\\Pages\\Error.cshtml.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Error.cshtml.cs",
-              "RelativeToolTip": "EMWeb\\Pages\\Error.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T22:12:05.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "EMWeb\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "EMWeb\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T22:12:00.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "EMWeb\\Pages\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "EMWeb\\Pages\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-14T22:11:42.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "EMWeb\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "EMWeb\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T22:11:40.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Excluir.cshtml.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Excluir.cshtml.cs",
-              "RelativeDocumentMoniker": "EMWeb\\Pages\\Ficha\\Excluir.cshtml.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Excluir.cshtml.cs",
-              "RelativeToolTip": "EMWeb\\Pages\\Ficha\\Excluir.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T22:11:15.191Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RepositorioAluno.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAluno\\RepositorioAluno.cs",
-              "RelativeDocumentMoniker": "..\\EMRepository\\RepositorioAluno\\RepositorioAluno.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAluno\\RepositorioAluno.cs",
-              "RelativeToolTip": "..\\EMRepository\\RepositorioAluno\\RepositorioAluno.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T00:07:18.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RepositorioAbstrato.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAbstrato\\RepositorioAbstrato.cs",
-              "RelativeDocumentMoniker": "..\\EMRepository\\RepositorioAbstrato\\RepositorioAbstrato.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\RepositorioAbstrato\\RepositorioAbstrato.cs",
-              "RelativeToolTip": "..\\EMRepository\\RepositorioAbstrato\\RepositorioAbstrato.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T00:07:18.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Banco.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\Banco\\Banco.cs",
-              "RelativeDocumentMoniker": "..\\EMRepository\\Banco\\Banco.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMRepository\\Banco\\Banco.cs",
-              "RelativeToolTip": "..\\EMRepository\\Banco\\Banco.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T00:07:18.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IEntidade.cs",
-              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\IEntidade\\IEntidade.cs",
-              "RelativeDocumentMoniker": "..\\EMDomain\\IEntidade\\IEntidade.cs",
-              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\IEntidade\\IEntidade.cs",
-              "RelativeToolTip": "..\\EMDomain\\IEntidade\\IEntidade.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T00:07:18.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "ValidacaoCPF.cs",
               "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\Aluno\\ValidacaoCPF.cs",
               "RelativeDocumentMoniker": "..\\EMDomain\\Aluno\\ValidacaoCPF.cs",
               "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\Aluno\\ValidacaoCPF.cs",
               "RelativeToolTip": "..\\EMDomain\\Aluno\\ValidacaoCPF.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T00:07:18.464Z"
+              "WhenOpened": "2024-03-16T01:40:36.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 7,
               "Title": "ValidacaoCamposAluno.cs",
               "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\Aluno\\ValidacaoCamposAluno.cs",
               "RelativeDocumentMoniker": "..\\EMDomain\\Aluno\\ValidacaoCamposAluno.cs",
               "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\Aluno\\ValidacaoCamposAluno.cs",
               "RelativeToolTip": "..\\EMDomain\\Aluno\\ValidacaoCamposAluno.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T00:07:18.469Z"
+              "WhenOpened": "2024-03-16T01:38:49.558Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\Aluno\\Aluno.cs",
+              "RelativeDocumentMoniker": "..\\EMDomain\\Aluno\\Aluno.cs",
+              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMDomain\\Aluno\\Aluno.cs",
+              "RelativeToolTip": "..\\EMDomain\\Aluno\\Aluno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T01:38:48.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Formulario.cshtml.cs",
+              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Formulario.cshtml.cs",
+              "RelativeDocumentMoniker": "EMWeb\\Pages\\Ficha\\Formulario.cshtml.cs",
+              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Formulario.cshtml.cs",
+              "RelativeToolTip": "EMWeb\\Pages\\Ficha\\Formulario.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T01:32:49.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Alunos.cshtml",
+              "DocumentMoniker": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Alunos.cshtml",
+              "RelativeDocumentMoniker": "EMWeb\\Pages\\Ficha\\Alunos.cshtml",
+              "ToolTip": "D:\\Ambiente_Desenvolvimento\\Aulas_C#\\ProjetoEM\\EMWeb\\EMWeb\\Pages\\Ficha\\Alunos.cshtml",
+              "RelativeToolTip": "EMWeb\\Pages\\Ficha\\Alunos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-16T01:32:14.419Z"
             }
           ]
         }
